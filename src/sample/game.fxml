@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Game">
+   <children>
+      <Sphere fx:id="RedSphere" layoutX="90.0" layoutY="838.0" onMouseClicked="#red" radius="25.0" />
+      <Sphere fx:id="BlueSphere" layoutX="160.0" layoutY="838.0" onMouseClicked="#blue" radius="25.0" />
+      <Sphere fx:id="YellowSphere" layoutX="225.0" layoutY="838.0" onMouseClicked="#yellow" radius="25.0" />
+      <Sphere fx:id="WhiteSphere" layoutX="293.0" layoutY="838.0" onMouseClicked="#white" radius="25.0" />
+      <Sphere fx:id="BlackSphere" layoutX="363.0" layoutY="838.0" onMouseClicked="#black" radius="25.0" />
+      <Sphere fx:id="GreenSphere" layoutX="430.0" layoutY="838.0" onMouseClicked="#green" radius="25.0" />
+      <Sphere fx:id="SecretSphere4" layoutX="363.0" layoutY="61.0" radius="25.0" />
+      <Sphere fx:id="SecretSphere3" layoutX="293.0" layoutY="61.0" radius="25.0" />
+      <Sphere fx:id="SecretSphere2" layoutX="225.0" layoutY="61.0" radius="25.0" />
+      <Sphere fx:id="SecretSphere1" layoutX="160.0" layoutY="61.0" radius="25.0" />
+      <Button fx:id="Generate" layoutX="471.0" layoutY="49.0" mnemonicParsing="false" onMouseClicked="#showCode" text="Generate" />
+      <Sphere fx:id="Sphere1row2" layoutX="160.0" layoutY="185.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere1row1" layoutX="160.0" layoutY="123.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere1row3" layoutX="160.0" layoutY="249.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere1row4" layoutX="160.0" layoutY="310.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere1row5" layoutX="160.0" layoutY="374.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere1row10" layoutX="160.0" layoutY="692.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere1row9" layoutX="160.0" layoutY="628.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere1row8" layoutX="160.0" layoutY="567.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere1row6" layoutX="160.0" layoutY="441.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere1row7" layoutX="160.0" layoutY="503.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere2row7" layoutX="225.0" layoutY="503.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere2row6" layoutX="225.0" layoutY="441.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere2row8" layoutX="225.0" layoutY="567.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere2row9" layoutX="225.0" layoutY="628.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere2row10" layoutX="225.0" layoutY="692.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere2row5" layoutX="225.0" layoutY="374.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere2row4" layoutX="225.0" layoutY="310.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere2row3" layoutX="225.0" layoutY="249.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere2row1" layoutX="225.0" layoutY="123.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere2row2" layoutX="225.0" layoutY="185.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere3row2" layoutX="293.0" layoutY="185.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere3row1" layoutX="293.0" layoutY="123.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere3row3" layoutX="293.0" layoutY="249.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere3row4" layoutX="293.0" layoutY="310.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere3row5" layoutX="293.0" layoutY="374.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere3row10" layoutX="293.0" layoutY="692.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere3row9" layoutX="293.0" layoutY="628.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere3row8" layoutX="293.0" layoutY="567.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere3row6" layoutX="293.0" layoutY="441.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere3row7" layoutX="293.0" layoutY="503.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere4row7" layoutX="363.0" layoutY="503.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere4row6" layoutX="363.0" layoutY="441.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere4row8" layoutX="363.0" layoutY="567.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere4row9" layoutX="363.0" layoutY="628.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere4row10" layoutX="363.0" layoutY="692.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere4row5" layoutX="363.0" layoutY="374.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere4row4" layoutX="363.0" layoutY="310.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere4row3" layoutX="363.0" layoutY="249.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere4row1" layoutX="363.0" layoutY="123.0" onMouseClicked="#setColor" radius="25.0" />
+      <Sphere fx:id="Sphere4row2" layoutX="363.0" layoutY="185.0" onMouseClicked="#setColor" radius="25.0" />
+      <Button fx:id="done" layoutX="471.0" layoutY="818.0" mnemonicParsing="false" onMouseClicked="#checkCorrectGuess" prefHeight="41.0" prefWidth="101.0" text="Done" />
+      <Label layoutX="60.0" layoutY="115.0" prefHeight="17.0" prefWidth="58.0" text="Row 1" />
+      <Label layoutX="60.0" layoutY="177.0" prefHeight="17.0" prefWidth="58.0" text="Row 2" />
+      <Label layoutX="57.0" layoutY="241.0" prefHeight="17.0" prefWidth="58.0" text="Row 3" />
+      <Label layoutX="57.0" layoutY="302.0" prefHeight="17.0" prefWidth="58.0" text="Row 4" />
+      <Label layoutX="57.0" layoutY="366.0" prefHeight="17.0" prefWidth="58.0" text="Row 5" />
+      <Label layoutX="57.0" layoutY="433.0" prefHeight="17.0" prefWidth="58.0" text="Row 6" />
+      <Label layoutX="57.0" layoutY="495.0" prefHeight="17.0" prefWidth="58.0" text="Row 7" />
+      <Label layoutX="57.0" layoutY="559.0" prefHeight="17.0" prefWidth="58.0" text="Row 8" />
+      <Label layoutX="57.0" layoutY="620.0" prefHeight="17.0" prefWidth="58.0" text="Row 9" />
+      <Label layoutX="57.0" layoutY="684.0" prefHeight="17.0" prefWidth="58.0" text="Row 10" />
+      <Sphere fx:id="peg1r1" layoutX="405.0" layoutY="105.0" radius="5.0" />
+      <Sphere fx:id="peg2r1" layoutX="425.0" layoutY="105.0" radius="5.0" />
+      <Sphere fx:id="peg3r1" layoutX="405.0" layoutY="125.0" radius="5.0" />
+      <Sphere fx:id="peg4r1" layoutX="425.0" layoutY="125.0" radius="5.0" />
+      <Button fx:id="option" layoutX="471.0" layoutY="764.0" mnemonicParsing="false" onMouseClicked="#checkCorrectGuess" onMousePressed="#menuOption" prefHeight="41.0" prefWidth="101.0" text="Options" />
+      <Sphere fx:id="peg4r2" layoutX="425.0" layoutY="190.0" radius="5.0" />
+      <Sphere fx:id="peg3r2" layoutX="405.0" layoutY="190.0" radius="5.0" />
+      <Sphere fx:id="peg2r2" layoutX="425.0" layoutY="170.0" radius="5.0" />
+      <Sphere fx:id="peg1r2" layoutX="405.0" layoutY="170.0" radius="5.0" />
+      <Sphere fx:id="peg4r3" layoutX="425.0" layoutY="255.0" radius="5.0" />
+      <Sphere fx:id="peg3r3" layoutX="405.0" layoutY="255.0" radius="5.0" />
+      <Sphere fx:id="peg2r3" layoutX="425.0" layoutY="235.0" radius="5.0" />
+      <Sphere fx:id="peg1r3" layoutX="405.0" layoutY="235.0" radius="5.0" />
+      <Sphere fx:id="peg4r4" layoutX="425.0" layoutY="320.0" radius="5.0" />
+      <Sphere fx:id="peg3r4" layoutX="405.0" layoutY="320.0" radius="5.0" />
+      <Sphere fx:id="peg2r4" layoutX="425.0" layoutY="300.0" radius="5.0" />
+      <Sphere fx:id="peg1r4" layoutX="405.0" layoutY="300.0" radius="5.0" />
+      <Sphere fx:id="peg4r5" layoutX="425.0" layoutY="384.0" radius="5.0" />
+      <Sphere fx:id="peg3r5" layoutX="405.0" layoutY="384.0" radius="5.0" />
+      <Sphere fx:id="peg2r5" layoutX="425.0" layoutY="364.0" radius="5.0" />
+      <Sphere fx:id="peg1r5" layoutX="405.0" layoutY="364.0" radius="5.0" />
+      <Sphere fx:id="peg4r6" layoutX="425.0" layoutY="452.0" radius="5.0" />
+      <Sphere fx:id="peg3r6" layoutX="405.0" layoutY="452.0" radius="5.0" />
+      <Sphere fx:id="peg2r6" layoutX="425.0" layoutY="432.0" radius="5.0" />
+      <Sphere fx:id="peg1r6" layoutX="405.0" layoutY="432.0" radius="5.0" />
+      <Sphere fx:id="peg4r7" layoutX="425.0" layoutY="513.0" radius="5.0" />
+      <Sphere fx:id="peg3r7" layoutX="405.0" layoutY="513.0" radius="5.0" />
+      <Sphere fx:id="peg2r7" layoutX="425.0" layoutY="493.0" radius="5.0" />
+      <Sphere fx:id="peg1r7" layoutX="405.0" layoutY="493.0" radius="5.0" />
+      <Sphere fx:id="peg4r8" layoutX="425.0" layoutY="577.0" radius="5.0" />
+      <Sphere fx:id="peg3r8" layoutX="405.0" layoutY="577.0" radius="5.0" />
+      <Sphere fx:id="peg2r8" layoutX="425.0" layoutY="557.0" radius="5.0" />
+      <Sphere fx:id="peg1r8" layoutX="405.0" layoutY="557.0" radius="5.0" />
+      <Sphere fx:id="peg4r9" layoutX="425.0" layoutY="639.0" radius="5.0" />
+      <Sphere fx:id="peg3r9" layoutX="405.0" layoutY="639.0" radius="5.0" />
+      <Sphere fx:id="peg2r9" layoutX="425.0" layoutY="619.0" radius="5.0" />
+      <Sphere fx:id="peg1r9" layoutX="405.0" layoutY="619.0" radius="5.0" />
+      <Sphere fx:id="peg4r10" layoutX="425.0" layoutY="700.0" radius="5.0" />
+      <Sphere fx:id="peg3r10" layoutX="405.0" layoutY="700.0" radius="5.0" />
+      <Sphere fx:id="peg2r10" layoutX="425.0" layoutY="680.0" radius="5.0" />
+      <Sphere fx:id="peg1r10" layoutX="405.0" layoutY="680.0" radius="5.0" />
+      <Button fx:id="newgame" layoutX="471.0" layoutY="705.0" mnemonicParsing="false" onMouseClicked="#newGame" prefHeight="41.0" prefWidth="101.0" text="New Game" />
+   </children>
+</AnchorPane>

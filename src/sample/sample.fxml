@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Sphere fx:id="frontball1"  layoutX="84.0" layoutY="74.0" radius="30.0" AnchorPane.bottomAnchor="800.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="480.0" AnchorPane.topAnchor="40.0" />
+        <Sphere fx:id="frontball2" layoutX="157.0" layoutY="74.0" radius="30.0" AnchorPane.leftAnchor="130.0" AnchorPane.rightAnchor="400.0" AnchorPane.topAnchor="40.0" />
+        <Sphere fx:id="frontball3" layoutX="235.0" layoutY="74.0" radius="30.0" AnchorPane.leftAnchor="210.0" AnchorPane.topAnchor="40.0" />
+        <Sphere fx:id="frontball4" layoutX="309.0" layoutY="74.0" radius="30.0" AnchorPane.leftAnchor="290.0" AnchorPane.topAnchor="40.0" />
+        <Sphere fx:id="frontball5" layoutX="395.0" layoutY="70.0" radius="30.0" AnchorPane.leftAnchor="370.0" AnchorPane.topAnchor="40.0" />
+        <Sphere fx:id="frontball6" layoutX="479.0" layoutY="70.0" radius="30.0" AnchorPane.leftAnchor="450.0" AnchorPane.topAnchor="40.0" />
+        <Label fx:id="Title" layoutX="165.0" layoutY="138.0" prefHeight="44.0" prefWidth="250.0" text="Mastermind FX v0.1" textAlignment="CENTER" AnchorPane.leftAnchor="165.0" AnchorPane.topAnchor="138.0">
+            <font>
+                <Font size="28.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="frontext1" layoutX="50.0" layoutY="182.0" prefHeight="274.0" prefWidth="488.0" text="Rules: &#10;The Code Maker will choose four colors that will be the secret code.&#10;You (the player) will then choose between six colors, four each row to guess &#10;the Code Makers secret code.&#10;You have ten tries on you.&#10;&#10;Efter each row the Code Maker will mark all colors that are placed in the correct place&#10;with a black peg.&#10;For every color that is correct but not in the correct place he will mark with a white peg.&#10;&#10;This will continue untill you crack the code or the tenth row has been placed &#10;without cracking the code.&#10;&#10;The Code Master will then reveal his code, and mock you for the rest of your life." />
+        <Button fx:id="start" onMouseClicked="#start" layoutX="102.0" layoutY="521.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="108.0" text="Start" />
+        <Button fx:id="quit" onMouseClicked="#quit" layoutX="322.0" layoutY="521.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="108.0" text="Quit" />
+    </children>
+</AnchorPane>
+
+
